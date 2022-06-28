@@ -1,0 +1,63 @@
+  @media (max-width: 1225px) {
+      .top_images {
+          left: -100px;
+      }
+
+  }
+
+  @media (max-width: 1020px) {
+      .superman_circle {
+        font-size: 13px;
+        width: 190px;
+        height: 190px;
+        left: 150px
+      }
+
+      .superman img{
+          width: 350px;
+      }
+
+      .top_images {
+          left: -80px;
+
+      }
+  }
+
+
+  @media (max-width: 960px) {
+      .header_menu li {
+          display: none;
+          position: absolute;
+          top: 87px;
+          left: 0;
+          right: 0px;
+          width: 100%;
+          text-align: center;
+          border-top: 1px solid #000;
+          z-index: 5;
+
+      }
+  }
+
+  @media (min-width: 950px) {
+      .btn_menu {
+          display: none;
+      }
+  }
+
+  @media (max-width: 890px) {
+      .superman img {
+          width: 300px;
+     
+      }
+
+      .superman_circle {
+          font-size: 13px;
+          width: 160px;
+          height: 160px;
+          left: 170px;
+      }
+      .circle_price{
+        font-size: 46px;
+      }
+  }
